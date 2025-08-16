@@ -32,7 +32,7 @@ const App = () => (
       <LanguageProvider>
         <AuthProvider>
           <CartProvider>
-            <BrowserRouter>
+            <BrowserRouter basename="/">
               <div className="min-h-screen flex flex-col">
                 <Navbar />
                 <main className="flex-1">
